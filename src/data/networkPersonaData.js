@@ -1,8 +1,8 @@
 export const networkPersonaData = {
   headerData: [
     { id: "category", label: "" },
-    { id: "personaCategory", label: "Network Persona Category" },
-    { id: "percentOrders", label: "% Orders in Each Category" },
+    { id: "personaCategory", label: "Category" },
+    { id: "percentOrders", label: "Orders (in %)" },
     { id: "aovMean", label: "Life Time Value" },
   ],
   rowData: [

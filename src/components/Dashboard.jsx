@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import TotalOrdersBox from "./TotalOrdersBox";
-import TotalGmvBox from "./TotalGmvBox";
 import BusinessCategoryTable from "./BusinessCategoryTable";
 import GmvCategoryTable from "./GmvCategoryTable";
 import OrderValueTable from "./OrderValueTable";
 import GmvValueTable from "./GmvValueTable";
+import TimePeriodTiles from "./TimePeriodTiles";
 import "../styles/Dashboard.css";
 
 // Generate more mock data for scrollbar testing
@@ -78,6 +77,9 @@ const Dashboard = () => {
       ) : (
         <>
           <h1 className="dashboard-title">Dashboard</h1>
+
+          {/* Global Time Period Tiles */}
+          <TimePeriodTiles />
 
           {/* Metric Cards */}
           <div className="metric-cards">

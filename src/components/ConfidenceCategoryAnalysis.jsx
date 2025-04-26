@@ -100,9 +100,6 @@ const ConfidenceCategoryAnalysis = ({ title, description, data }) => {
         }}
       >
         <span>{activeCategory}</span>
-        <span style={{ fontSize: "14px", opacity: 0.8 }}>
-          {data.categoryData[activeCategory].rowData.length} data points
-        </span>
       </div>
 
       {/* Table for the active category */}

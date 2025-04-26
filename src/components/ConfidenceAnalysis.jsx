@@ -31,18 +31,12 @@ const ConfidenceAnalysis = ({
     return "";
   };
 
-  // Find the highest value for highlighting
-  const highestValueRow = [...data.rowData].sort((a, b) => b.aovMean - a.aovMean)[0];
-
   return (
     <div className={`persona-analysis-container ${animate ? "animate" : ""}`}>
       <div className="persona-analysis-header">
         <h3 className="persona-analysis-title">{title}</h3>
       </div>
-      <div className="persona-analysis-description">
-        {description}
-        <span className="data-point-count">{data.rowData.length} data points</span>
-      </div>
+      <div className="persona-analysis-description">{description}</div>
       <div className="persona-analysis-table-container">
         <table className="persona-analysis-table">
           <thead>

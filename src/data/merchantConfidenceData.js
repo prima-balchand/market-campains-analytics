@@ -1,6 +1,6 @@
 export const merchantConfidenceData = {
   headerData: [
-    { id: "personaCategory", label: "Merchant Persona Category" },
+    { id: "personaCategory", label: "Category" },
     { id: "percentOrders", label: "High" },
     { id: "aovMean", label: "Medium" },
     { id: "low", label: "Low" },
@@ -8,9 +8,9 @@ export const merchantConfidenceData = {
   rowData: [
     {
       id: 1,
-      percentOrders: "Life time value",
-      aovMean: "Life time value",
-      low: "Life time value",
+      percentOrders: "Life Time Value",
+      aovMean: "Life Time Value",
+      low: "Life Time Value",
     },
     {
       id: 11,

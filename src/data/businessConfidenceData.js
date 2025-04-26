@@ -1,6 +1,6 @@
 export const businessConfidenceData = {
   headerData: [
-    { id: "personaCategory", label: "Business Persona Category" },
+    { id: "personaCategory", label: "Category" },
     { id: "percentOrders", label: "High" },
     { id: "aovMean", label: "Medium" },
     { id: "low", label: "Low" },
@@ -8,9 +8,9 @@ export const businessConfidenceData = {
   rowData: [
     {
       id: 11,
-      percentOrders: "Life time value",
-      aovMean: "Life time value",
-      low: "Life time value",
+      percentOrders: "Life Time Value",
+      aovMean: "Life Time Value",
+      low: "Life Time Value",
     },
     {
       id: 1,

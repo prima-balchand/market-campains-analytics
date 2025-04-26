@@ -11,9 +11,9 @@ export const merchantCategoryData = {
     ["Hopscotchin"]: {
       headerData: [
         { id: "category", label: "" },
-        { id: "personaCategory", label: "Merchant Persona Category" },
-        { id: "percentOrders", label: "% Orders in Each Category" },
-        { id: "aovMean", label: "Merchant Life Time Value" },
+        { id: "personaCategory", label: "Category" },
+        { id: "percentOrders", label: "Orders (in %)" },
+        { id: "aovMean", label: " Life Time Value" },
       ],
       rowData: [
         {
@@ -70,9 +70,9 @@ export const merchantCategoryData = {
     ["Neeman's"]: {
       headerData: [
         { id: "category", label: "" },
-        { id: "personaCategory", label: "Merchant Persona Category" },
-        { id: "percentOrders", label: "% Orders in Each Category" },
-        { id: "aovMean", label: "Merchant Life Time Value" },
+        { id: "personaCategory", label: "Category" },
+        { id: "percentOrders", label: "Orders (in %)" },
+        { id: "aovMean", label: " Life Time Value" },
       ],
       rowData: [
         {
@@ -129,9 +129,9 @@ export const merchantCategoryData = {
     ["Nobero - Live"]: {
       headerData: [
         { id: "category", label: "" },
-        { id: "personaCategory", label: "Merchant Persona Category" },
-        { id: "percentOrders", label: "% Orders in Each Category" },
-        { id: "aovMean", label: "Merchant Life Time Value" },
+        { id: "personaCategory", label: "Category" },
+        { id: "percentOrders", label: "Orders (in %)" },
+        { id: "aovMean", label: " Life Time Value" },
       ],
       rowData: [
         {
@@ -188,9 +188,9 @@ export const merchantCategoryData = {
     ["Lotus Botanicals"]: {
       headerData: [
         { id: "category", label: "" },
-        { id: "personaCategory", label: "Merchant Persona Category" },
-        { id: "percentOrders", label: "% Orders in Each Category" },
-        { id: "aovMean", label: "Merchant Life Time Value" },
+        { id: "personaCategory", label: "Category" },
+        { id: "percentOrders", label: "Orders (in %)" },
+        { id: "aovMean", label: " Life Time Value" },
       ],
       rowData: [
         {
@@ -247,9 +247,9 @@ export const merchantCategoryData = {
     ["Cute Code Street Style store"]: {
       headerData: [
         { id: "category", label: "" },
-        { id: "personaCategory", label: "Merchant Persona Category" },
-        { id: "percentOrders", label: "% Orders in Each Category" },
-        { id: "aovMean", label: "Merchant Life Time Value" },
+        { id: "personaCategory", label: "Category" },
+        { id: "percentOrders", label: "Orders (in %)" },
+        { id: "aovMean", label: " Life Time Value" },
       ],
       rowData: [
         {
@@ -306,9 +306,9 @@ export const merchantCategoryData = {
     ["Femella"]: {
       headerData: [
         { id: "category", label: "" },
-        { id: "personaCategory", label: "Merchant Persona Category" },
-        { id: "percentOrders", label: "% Orders in Each Category" },
-        { id: "aovMean", label: "Merchant Life Time Value" },
+        { id: "personaCategory", label: "Category" },
+        { id: "percentOrders", label: "Orders (in %)" },
+        { id: "aovMean", label: " Life Time Value" },
       ],
       rowData: [
         {

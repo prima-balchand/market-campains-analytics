@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "../styles/PersonaRankTables.css";
-import BusinessAnalysis from "../components/BusinessAnalysis";
+import TimePeriodTiles from "../components/TimePeriodTiles";
 import { networkConfidenceData } from "../data/networkConfidenceData";
-import { merchantCategoryData } from "../data/merchantCategoryData";
 import ConfidenceAnalysis from "../components/ConfidenceAnalysis";
 import { businessConfidenceData } from "../data/businessConfidenceData";
 import { merchantConfidenceData } from "../data/merchantConfidenceData";
@@ -20,6 +19,9 @@ const PersonaConfidencePage = () => {
   return (
     <div className="page-container">
       <h1 className="page-title">Persona Analysis with Confidence Flag</h1>
+
+      {/* Global Time Period Tiles */}
+      <TimePeriodTiles />
 
       <div className="persona-rank-container">
         {/* Tab Navigation */}

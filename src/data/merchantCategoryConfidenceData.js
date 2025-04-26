@@ -10,7 +10,7 @@ export const merchantCategoryCofidenceData = {
   categoryData: {
     ["Hopscotchin"]: {
       headerData: [
-        { id: "personaCategory", label: "Merchant Persona Category" },
+        { id: "personaCategory", label: "Category" },
         { id: "percentOrders", label: "High" },
         { id: "aovMean", label: "Medium" },
         { id: "low", label: "Low" },
@@ -18,9 +18,9 @@ export const merchantCategoryCofidenceData = {
       rowData: [
         {
           id: 1,
-          percentOrders: "Life time value",
-          aovMean: "Life time value",
-          low: "Life time value",
+          percentOrders: "Life Time Value",
+          aovMean: "Life Time Value",
+          low: "Life Time Value",
         },
         {
           id: 11,
@@ -61,7 +61,7 @@ export const merchantCategoryCofidenceData = {
     },
     ["Neeman's"]: {
       headerData: [
-        { id: "personaCategory", label: "Merchant Persona Category" },
+        { id: "personaCategory", label: "Category" },
         { id: "percentOrders", label: "High" },
         { id: "aovMean", label: "Medium" },
         { id: "low", label: "Low" },
@@ -69,9 +69,9 @@ export const merchantCategoryCofidenceData = {
       rowData: [
         {
           id: 1,
-          percentOrders: "Life time value",
-          aovMean: "Life time value",
-          low: "Life time value",
+          percentOrders: "Life Time Value",
+          aovMean: "Life Time Value",
+          low: "Life Time Value",
         },
 
         {
@@ -110,7 +110,7 @@ export const merchantCategoryCofidenceData = {
     },
     ["Nobero - Live"]: {
       headerData: [
-        { id: "personaCategory", label: "Merchant Persona Category" },
+        { id: "personaCategory", label: "Category" },
         { id: "percentOrders", label: "High" },
         { id: "aovMean", label: "Medium" },
         { id: "low", label: "Low" },
@@ -118,9 +118,9 @@ export const merchantCategoryCofidenceData = {
       rowData: [
         {
           id: 1,
-          percentOrders: "Life time value",
-          aovMean: "Life time value",
-          low: "Life time value",
+          percentOrders: "Life Time Value",
+          aovMean: "Life Time Value",
+          low: "Life Time Value",
         },
 
         {
@@ -162,7 +162,7 @@ export const merchantCategoryCofidenceData = {
     },
     ["Lotus Botanicals"]: {
       headerData: [
-        { id: "personaCategory", label: "Merchant Persona Category" },
+        { id: "personaCategory", label: "Category" },
         { id: "percentOrders", label: "High" },
         { id: "aovMean", label: "Medium" },
         { id: "low", label: "Low" },
@@ -170,9 +170,9 @@ export const merchantCategoryCofidenceData = {
       rowData: [
         {
           id: 1,
-          percentOrders: "Life time value",
-          aovMean: "Life time value",
-          low: "Life time value",
+          percentOrders: "Life Time Value",
+          aovMean: "Life Time Value",
+          low: "Life Time Value",
         },
 
         {
@@ -214,7 +214,7 @@ export const merchantCategoryCofidenceData = {
     },
     ["Cute Code Street Style store"]: {
       headerData: [
-        { id: "personaCategory", label: "Merchant Persona Category" },
+        { id: "personaCategory", label: "Category" },
         { id: "percentOrders", label: "High" },
         { id: "aovMean", label: "Medium" },
         { id: "low", label: "Low" },
@@ -222,9 +222,9 @@ export const merchantCategoryCofidenceData = {
       rowData: [
         {
           id: 1,
-          percentOrders: "Life time value",
-          aovMean: "Life time value",
-          low: "Life time value",
+          percentOrders: "Life Time Value",
+          aovMean: "Life Time Value",
+          low: "Life Time Value",
         },
 
         {
@@ -266,7 +266,7 @@ export const merchantCategoryCofidenceData = {
     },
     ["Femella"]: {
       headerData: [
-        { id: "personaCategory", label: "Merchant Persona Category" },
+        { id: "personaCategory", label: "Category" },
         { id: "percentOrders", label: "High" },
         { id: "aovMean", label: "Medium" },
         { id: "low", label: "Low" },
@@ -274,9 +274,9 @@ export const merchantCategoryCofidenceData = {
       rowData: [
         {
           id: 1,
-          percentOrders: "Life time value",
-          aovMean: "Life time value",
-          low: "Life time value",
+          percentOrders: "Life Time Value",
+          aovMean: "Life Time Value",
+          low: "Life Time Value",
         },
         {
           id: 11,
@@ -289,7 +289,7 @@ export const merchantCategoryCofidenceData = {
           id: 2,
           personaCategory: "Bronze+",
           percentOrders: 2062,
-          aovMean: 2439,
+          aovMean: 2493,
           low: 2319,
         },
         {

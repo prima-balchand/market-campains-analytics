@@ -1,9 +1,9 @@
 export const businessPersonaData = {
   headerData: [
     { id: "category", label: "" },
-    { id: "personaCategory", label: "Business Persona Category" },
-    { id: "percentOrders", label: "% Orders in Each Category" },
-    { id: "aovMean", label: "Business Category Life Time Value" },
+    { id: "personaCategory", label: "Category" },
+    { id: "percentOrders", label: "Orders (in %)" },
+    { id: "aovMean", label: " Life Time Value" },
   ],
   rowData: [
     {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/PersonaRankTables.css";
 import NetworkPersonaAnalysis from "../components/NetworkPersonaAnalysis";
 import BusinessAnalysis from "../components/BusinessAnalysis";
+import TimePeriodTiles from "../components/TimePeriodTiles";
 import { networkPersonaData } from "../data/networkPersonaData";
 import { businessPersonaData } from "../data/businessPersonaData";
 import { businessCategoryData } from "../data/businessCategoryData";
@@ -18,6 +19,9 @@ const PersonaRankPage = () => {
   return (
     <div className="page-container">
       <h1 className="page-title">Persona Rank Analysis</h1>
+
+      {/* Global Time Period Tiles */}
+      <TimePeriodTiles />
 
       <div className="persona-rank-container">
         {/* Tab Navigation */}
