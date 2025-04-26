@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navigation from "./components/Navigation";
 import PersonaRankPage from "./pages/PersonaRankPage";
@@ -13,11 +13,8 @@ function App() {
         <Navigation />
         <div className="content-container">
           <Routes>
-            <Route path="/market-campains-analytics/" element={<PersonaRankPage />} />
-            <Route
-              path="/market-campains-analytics/persona-confidence"
-              element={<PersonaConfidencePage />}
-            />
+            <Route path="/" element={<PersonaRankPage />} />
+            <Route path="/persona-confidence" element={<PersonaConfidencePage />} />
             <Route path="*" element={<NotFound />} /> {/* 👈 Catch-all */}
           </Routes>
         </div>
