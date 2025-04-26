@@ -4,7 +4,7 @@ import "../styles/NetworkPersonaAnalysis.css";
 
 const ConfidenceAnalysis = ({
   title = "Network Persona Analysis",
-  description = "This section shows persona analysis based on network data based on Confidence Flag",
+  description = "This section shows persona analysis based on network data with Confidence Flag",
   data,
 }) => {
   // State for animation

@@ -56,7 +56,7 @@ const PersonaConfidencePage = () => {
                 data={businessConfidenceData}
                 title={"Business Persona Analysis"}
                 description={
-                  "This section shows persona analysis based on business data based on Confidence Flag."
+                  "This section shows persona analysis based on business data with Confidence Flag."
                 }
               />
               <div style={{ marginTop: "40px", borderTop: "1px solid #ddd", paddingTop: "30px" }}>
@@ -64,7 +64,7 @@ const PersonaConfidencePage = () => {
                   data={businessCategoryCofidenceData}
                   title={"Business Category Analysis"}
                   description={
-                    "This section shows persona analysis based on business categories based on Confidence Flag."
+                    "This section shows persona analysis based on business categories with Confidence Flag."
                   }
                 />
               </div>
@@ -77,7 +77,7 @@ const PersonaConfidencePage = () => {
                 data={merchantConfidenceData}
                 title={"Merchant Persona Analysis"}
                 description={
-                  "This section shows persona analysis based on merchant data based on Confidence Flag."
+                  "This section shows persona analysis based on merchant data with Confidence Flag."
                 }
               />
               <div style={{ marginTop: "40px", borderTop: "1px solid #ddd", paddingTop: "30px" }}>
@@ -85,7 +85,7 @@ const PersonaConfidencePage = () => {
                   data={merchantCategoryCofidenceData}
                   title={"Merchant Category Analysis"}
                   description={
-                    "This section shows persona analysis based on merchant categories based on Confidence Flag."
+                    "This section shows persona analysis based on merchant categories with Confidence Flag."
                   }
                 />
               </div>
