@@ -12,11 +12,15 @@ const Navigation = () => {
           <h1>Customer Personalization Engine</h1>
         </div>
         <ul className="nav-links">
-          <li className={location.pathname === "/" ? "active" : ""}>
-            <Link to="/">Dashboard</Link>
+          <li className={location.pathname === "/market-campains-analytics/" ? "active" : ""}>
+            <Link to="/market-campains-analytics/">Dashboard</Link>
           </li>
-          <li className={location.pathname === "/persona-rank" ? "active" : ""}>
-            <Link to="/persona-rank">Persona Rank Analysis</Link>
+          <li
+            className={
+              location.pathname === "/market-campains-analytics/persona-rank" ? "active" : ""
+            }
+          >
+            <Link to="/market-campains-analytics/persona-rank">Persona Rank Analysis</Link>
           </li>
         </ul>
       </div>
