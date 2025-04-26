@@ -22,6 +22,15 @@ const Navigation = () => {
           >
             <Link to="/market-campains-analytics/persona-rank">Persona Rank Analysis</Link>
           </li>
+          <li
+            className={
+              location.pathname === "/market-campains-analytics/persona-confidence" ? "active" : ""
+            }
+          >
+            <Link to="/market-campains-analytics/persona-confidence">
+              Persona Confidence Analysis
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

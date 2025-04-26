@@ -10,7 +10,7 @@ import "../styles/Dashboard.css";
 // Generate more mock data for scrollbar testing
 const generateMoreCategories = () => {
   const baseCategories = [
-    { name: "Electronics", orderCount: 4.23, gmv: 125000, percentage: 18 },
+    { name: "Fashion", orderCount: 4.23, gmv: 125000, percentage: 18 },
     { name: "Clothing", orderCount: 3.56, gmv: 98000, percentage: 14 },
     { name: "Home & Kitchen", orderCount: 2.15, gmv: 65000, percentage: 9 },
     { name: "Books", orderCount: 1.54, gmv: 42000, percentage: 6 },
@@ -49,7 +49,7 @@ const allCategories = generateMoreCategories();
 
 // Separate data for orders and GMV
 const mockData = {
-  totalOrders: 35.67, // In millions
+  totalOrders: 10, // In millions
   categories: allCategories.map(({ name, orderCount }) => ({ name, orderCount })),
   gmvData: allCategories.map(({ name, gmv, percentage }) => ({ name, gmv, percentage })),
 };

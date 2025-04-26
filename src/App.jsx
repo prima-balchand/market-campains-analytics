@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation";
 import HomePage from "./pages/HomePage";
 import PersonaRankPage from "./pages/PersonaRankPage";
 import NotFound from "./pages/NotFound";
+import PersonaConfidencePage from "./pages/PersonaConfidencePage";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
           <Routes>
             <Route path="/market-campains-analytics/" element={<HomePage />} />
             <Route path="/market-campains-analytics/persona-rank" element={<PersonaRankPage />} />
+            <Route
+              path="/market-campains-analytics/persona-confidence"
+              element={<PersonaConfidencePage />}
+            />
             <Route path="*" element={<NotFound />} /> {/* 👈 Catch-all */}
           </Routes>
         </div>

@@ -396,6 +396,14 @@
   align-items: center;
 }
 
+.percent-value-confidence {
+  font-weight: 800;
+  color: #2980b9;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
 .percent-value::after {
   content: "📊";
   margin-left: 6px;
@@ -405,6 +413,14 @@
 
 /* Value cell styling */
 .value-cell {
+  font-weight: 800;
+  color: #16a085;
+  position: relative;
+  font-size: 18px;
+}
+
+/* Value cell styling */
+.value-cell-confidence {
   font-weight: 800;
   color: #16a085;
   position: relative;

@@ -21,7 +21,7 @@ const NetworkPersonaAnalysis = ({
 
   // Group rows by category for rowspan calculation
   const groupedRows = data.rowData.reduce((acc, row) => {
-    if (!acc[row.category]) {
+    if (!acc[row?.category]) {
       acc[row.category] = [];
     }
     acc[row.category].push(row);

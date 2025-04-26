@@ -4,8 +4,8 @@ import "../styles/PercentileTable.css";
 const GmvValueTable = () => {
   // Mock data for GMV percentiles
   const gmvValueData = [
-    { category: "Electronics", p25: 12000, p50: 25000, p75: 48000, p99: 120000 },
-    { category: "Clothing", p25: 8000, p50: 15000, p75: 28000, p99: 80000 },
+    { category: "Fashion", p25: 12000, p50: 25000, p75: 48000, p99: 120000 },
+    { category: "Beauty", p25: 8000, p50: 15000, p75: 28000, p99: 80000 },
     { category: "Home & Kitchen", p25: 15000, p50: 30000, p75: 55000, p99: 150000 },
     { category: "Books", p25: 4000, p50: 8000, p75: 12000, p99: 30000 },
     { category: "Beauty & Personal Care", p25: 6000, p50: 12000, p75: 20000, p99: 50000 },

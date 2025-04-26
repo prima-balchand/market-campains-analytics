@@ -1,5 +1,5 @@
 export const businessCategoryData = {
-  categories: ["Cosmettics", "Fashion"],
+  categories: ["Beauty&Cosmetics", "Fashion"],
   categoryData: {
     Fashion: {
       headerData: [
@@ -60,7 +60,7 @@ export const businessCategoryData = {
         },
       ],
     },
-    Cosmettics: {
+    ["Beauty&Cosmetics"]: {
       headerData: [
         { id: "category", label: "" },
         { id: "personaCategory", label: "Business Persona Category" },

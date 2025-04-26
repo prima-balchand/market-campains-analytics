@@ -4,12 +4,11 @@ import "../styles/PercentileTable.css";
 const OrderValueTable = () => {
   // Mock data for percentiles - order counts (not more than 20)
   const orderValueData = [
-    { category: "Electronics", p25: 2, p50: 4, p75: 8, p99: 15 },
-    { category: "Clothing", p25: 1, p50: 3, p75: 5, p99: 12 },
-    { category: "Home & Kitchen", p25: 1, p50: 2, p75: 4, p99: 10 },
-    { category: "Books", p25: 1, p50: 2, p75: 3, p99: 8 },
-    { category: "Beauty & Personal Care", p25: 1, p50: 2, p75: 4, p99: 9 },
-    { category: "Sports & Outdoors", p25: 2, p50: 3, p75: 6, p99: 14 },
+    { category: "Fashion", p25: 2, p50: 4, p75: 8, p99: 15 },
+    { category: "Beauty", p25: 1, p50: 3, p75: 5, p99: 12 },
+    { category: "Healtcare", p25: 1, p50: 2, p75: 4, p99: 10 },
+    { category: "Electronics", p25: 1, p50: 2, p75: 3, p99: 8 },
+    { category: "Others", p25: 1, p50: 2, p75: 4, p99: 9 },
   ];
 
   return (
