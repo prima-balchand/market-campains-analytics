@@ -188,11 +188,11 @@
 }
 
 /* Highlight cells with data */
-.persona-table td.has-value,
+/* .persona-table td.has-value,
 .persona-table td:not(:first-child):not([data-value="-"]) {
   font-weight: 600;
   color: #3498db;
-}
+} */
 
 .persona-table td.has-value:hover {
   background-color: #e8f4fc;

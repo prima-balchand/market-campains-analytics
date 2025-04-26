@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 
-const BusinessCategoryAnalysis = ({
-  title = "Business Category Analysis",
-  description = "This section shows persona analysis based on business categories.",
-  data,
-}) => {
+const CategoryAnalysis = ({ title, description, data }) => {
   const [activeCategory, setActiveCategory] = useState(data.categories[0]);
 
   const handleCategoryChange = (category) => {
@@ -109,4 +105,4 @@ const BusinessCategoryAnalysis = ({
   );
 };
 
-export default BusinessCategoryAnalysis;
+export default CategoryAnalysis;

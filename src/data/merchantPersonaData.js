@@ -1,9 +1,9 @@
 export const merchantPersonaData = {
   headerData: [
     { id: "category", label: "" },
-    { id: "personaCategory", label: "Merchant Persona Bucket" },
-    { id: "percentOrders", label: "% Orders in Each Bucket" },
-    { id: "aovMean", label: "merchant_id_aov_mean" },
+    { id: "personaCategory", label: "Merchant Persona Category" },
+    { id: "percentOrders", label: "% Orders in Each Category" },
+    { id: "aovMean", label: "Merchant Life Time Value" },
   ],
   rowData: [
     {

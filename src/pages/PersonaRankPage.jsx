@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "../styles/PersonaRankTables.css";
 import NetworkPersonaAnalysis from "../components/NetworkPersonaAnalysis";
-import BusinessCategoryAnalysis from "../components/BusinessCategoryAnalysis";
+import CategoryAnalysis from "../components/CategoryAnalysis";
 import { networkPersonaData } from "../data/networkPersonaData";
 import { businessPersonaData } from "../data/businessPersonaData";
 import { businessCategoryData } from "../data/businessCategoryData";
+import { merchantCategoryData } from "../data/merchantCategoryData";
 import { merchantPersonaData } from "../data/merchantPersonaData";
 
 const PersonaRankPage = () => {
@@ -53,7 +54,11 @@ const PersonaRankPage = () => {
                 description={"This section shows persona analysis based on business data."}
               />
               <div style={{ marginTop: "40px", borderTop: "1px solid #ddd", paddingTop: "30px" }}>
-                <BusinessCategoryAnalysis data={businessCategoryData} />
+                <CategoryAnalysis
+                  data={businessCategoryData}
+                  title={"Business Category Analysis"}
+                  description={"This section shows persona analysis based on business categories."}
+                />
               </div>
             </div>
           )}
@@ -66,7 +71,11 @@ const PersonaRankPage = () => {
                 description={"This section shows persona analysis based on merchant data."}
               />
               <div style={{ marginTop: "40px", borderTop: "1px solid #ddd", paddingTop: "30px" }}>
-                <BusinessCategoryAnalysis data={businessCategoryData} />
+                <CategoryAnalysis
+                  data={merchantCategoryData}
+                  title={"Merchant Category Analysis"}
+                  description={"This section shows persona analysis based on merchant categories."}
+                />
               </div>
             </div>
           )}

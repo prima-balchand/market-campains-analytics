@@ -40,7 +40,7 @@ const NetworkPersonaAnalysis = ({
               const rowSpan = isFirstInCategory ? groupedRows[row.category].length : 0;
 
               return (
-                <tr key={row.id} style={{ backgroundColor: row.backgroundColor || "transparent" }}>
+                <tr key={row.id}>
                   {isFirstInCategory && (
                     <td rowSpan={rowSpan} style={{ fontWeight: "bold", verticalAlign: "middle" }}>
                       {row.category}
