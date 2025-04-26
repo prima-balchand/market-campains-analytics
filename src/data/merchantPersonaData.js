@@ -11,7 +11,7 @@ export const merchantPersonaData = {
       category: "No Information",
       personaCategory: "null",
       percentOrders: "53%",
-      aovMean: 1003.75,
+      aovMean: 1004,
       backgroundColor: "#f0f8f0",
     },
     {

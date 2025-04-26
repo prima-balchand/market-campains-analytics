@@ -129,13 +129,15 @@ const ConfidenceCategoryAnalysis = ({ title, description, data }) => {
                   }}
                 >
                   <td>
-                    <span className={`persona-badge ${getPersonaBadgeClass(row?.personaCategory)}`}>
-                      {row?.personaCategory ?? "-"}
-                    </span>
+                    {row.personaCategory && (
+                      <span
+                        className={`persona-badge ${getPersonaBadgeClass(row.personaCategory)}`}
+                      >
+                        {row.personaCategory}
+                      </span>
+                    )}
                   </td>
-                  <td>
-                    <div className="percent-value-confidence">{row.percentOrders ?? "-"}</div>
-                  </td>
+                  <td className="value-cell-confidence">{row.percentOrders ?? "-"}</td>
                   <td className="value-cell-confidence">
                     {row.aovMean?.toLocaleString(undefined, {
                       minimumFractionDigits: 0,

@@ -62,13 +62,15 @@ const ConfidenceAnalysis = ({
               return (
                 <tr key={row.id} style={{ animationDelay }}>
                   <td>
-                    <span className={`persona-badge ${getPersonaBadgeClass(row.personaCategory)}`}>
-                      {row.personaCategory}
-                    </span>
+                    {row.personaCategory && (
+                      <span
+                        className={`persona-badge ${getPersonaBadgeClass(row.personaCategory)}`}
+                      >
+                        {row.personaCategory}
+                      </span>
+                    )}
                   </td>
-                  <td>
-                    <div className="percent-value-confidence">{row.percentOrders ?? "-"}</div>
-                  </td>
+                  <td className="value-cell-confidence">{row.percentOrders ?? "-"}</td>
                   <td className="value-cell-confidence">{row.aovMean?.toLocaleString() ?? "-"}</td>
                   <td className="value-cell-confidence">{row.low?.toLocaleString() ?? "-"}</td>
                 </tr>

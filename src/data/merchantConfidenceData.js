@@ -3,15 +3,14 @@ export const merchantConfidenceData = {
     { id: "personaCategory", label: "Merchant Persona Category" },
     { id: "percentOrders", label: "High" },
     { id: "aovMean", label: "Medium" },
-    { id: "low", label: "-" },
+    { id: "low", label: "Low" },
   ],
   rowData: [
     {
       id: 1,
-      personaCategory: "-",
-      percentOrders: null,
-      aovMean: null,
-      low: null,
+      percentOrders: "Life time value",
+      aovMean: "Life time value",
+      low: "Life time value",
     },
     {
       id: 11,
@@ -23,7 +22,7 @@ export const merchantConfidenceData = {
     {
       id: 2,
       personaCategory: "Bronze+",
-      percentOrders: 1134.1,
+      percentOrders: 1134,
       aovMean: 1162,
       low: 1289,
     },
@@ -31,7 +30,7 @@ export const merchantConfidenceData = {
       id: 3,
       personaCategory: "Silver",
       percentOrders: 1158,
-      aovMean: 1227.5,
+      aovMean: 1228,
       low: 1355,
     },
     {
@@ -45,7 +44,7 @@ export const merchantConfidenceData = {
       id: 5,
       personaCategory: "Diamond",
       percentOrders: 1848,
-      aovMean: 1569.1,
+      aovMean: 1569,
       low: 1546,
     },
   ],

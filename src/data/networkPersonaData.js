@@ -12,7 +12,6 @@ export const networkPersonaData = {
       personaCategory: "Null",
       percentOrders: "3%",
       aovMean: 898,
-      // backgroundColor: "#f0f8f0",
     },
     {
       id: 2,
@@ -20,7 +19,6 @@ export const networkPersonaData = {
       personaCategory: "Bronze",
       percentOrders: "4%",
       aovMean: 458,
-      // backgroundColor: "#f2d675",
       isFirstInGroup: true,
     },
     {
@@ -29,7 +27,6 @@ export const networkPersonaData = {
       personaCategory: "Bronze+",
       percentOrders: "6%",
       aovMean: 736,
-      // backgroundColor: "#f2d675",
     },
     {
       id: 4,

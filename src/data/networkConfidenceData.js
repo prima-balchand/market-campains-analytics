@@ -7,6 +7,12 @@ export const networkConfidenceData = {
   ],
   rowData: [
     {
+      id: 11,
+      percentOrders: "Life time value",
+      aovMean: "Life time value",
+      low: "Life time value",
+    },
+    {
       id: 1,
       personaCategory: "Bronze",
       percentOrders: 408,
@@ -16,21 +22,21 @@ export const networkConfidenceData = {
     {
       id: 2,
       personaCategory: "Bronze+",
-      percentOrders: 725.445,
+      percentOrders: 725,
       aovMean: 837,
       low: 759,
     },
     {
       id: 3,
       personaCategory: "Silver",
-      percentOrders: 921.5,
+      percentOrders: 922,
       aovMean: 987,
       low: 823,
     },
     {
       id: 4,
       personaCategory: "Gold",
-      percentOrders: 1147.67,
+      percentOrders: 1148,
       aovMean: 1070,
       low: 994,
     },

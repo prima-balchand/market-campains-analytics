@@ -10,10 +10,17 @@ export const businessCategoryCofidenceData = {
       ],
       rowData: [
         {
+          id: 11,
+          percentOrders: "Life time value",
+          aovMean: "Life time value",
+          low: "Life time value",
+        },
+
+        {
           id: 1,
           personaCategory: "Bronze",
           percentOrders: 788,
-          aovMean: 899.4,
+          aovMean: 899,
           low: 919,
         },
         {
@@ -26,7 +33,7 @@ export const businessCategoryCofidenceData = {
         {
           id: 3,
           personaCategory: "Silver",
-          percentOrders: 1169.1,
+          percentOrders: 1169,
           aovMean: 1219,
           low: 1356,
         },
@@ -41,7 +48,7 @@ export const businessCategoryCofidenceData = {
           id: 5,
           personaCategory: "Diamond",
           percentOrders: 1819,
-          aovMean: 1738.955,
+          aovMean: 1739,
           low: 1688,
         },
       ],
@@ -55,9 +62,15 @@ export const businessCategoryCofidenceData = {
       ],
       rowData: [
         {
+          id: 11,
+          percentOrders: "Life time value",
+          aovMean: "Life time value",
+          low: "Life time value",
+        },
+        {
           id: 1,
           personaCategory: "Bronze",
-          percentOrders: 456.5,
+          percentOrders: 457,
           aovMean: 976,
           low: 960,
         },
@@ -73,7 +86,7 @@ export const businessCategoryCofidenceData = {
           personaCategory: "Silver",
           percentOrders: 874,
           aovMean: 999,
-          low: 9710910,
+          low: 1091,
         },
         {
           id: 4,
@@ -86,7 +99,7 @@ export const businessCategoryCofidenceData = {
           id: 5,
           personaCategory: "Diamond",
           percentOrders: 1069,
-          aovMean: 1139.05,
+          aovMean: 1139,
           low: 1113,
         },
       ],

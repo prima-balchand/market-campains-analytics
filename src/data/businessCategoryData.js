@@ -22,8 +22,7 @@ export const businessCategoryData = {
           category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "2%",
-          aovMean: 799.15,
-          // backgroundColor: "#f2d675",
+          aovMean: 799,
           isFirstInGroup: true,
         },
         {
@@ -32,7 +31,6 @@ export const businessCategoryData = {
           personaCategory: "Bronze+",
           percentOrders: "5%",
           aovMean: 969,
-          // backgroundColor: "#f2d675",
         },
         {
           id: 4,
@@ -81,7 +79,7 @@ export const businessCategoryData = {
           category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "2%",
-          aovMean: 559.55,
+          aovMean: 560,
           // backgroundColor: "#f2d675",
           isFirstInGroup: true,
         },
@@ -90,7 +88,7 @@ export const businessCategoryData = {
           category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "6%",
-          aovMean: 594.5,
+          aovMean: 595,
           // backgroundColor: "#f2d675",
         },
         {
