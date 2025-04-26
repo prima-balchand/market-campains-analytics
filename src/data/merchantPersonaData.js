@@ -16,7 +16,7 @@ export const merchantPersonaData = {
     },
     {
       id: 2,
-      category: "Merchant Tiers",
+      category: "Previous Order Information",
       personaCategory: "Bronze",
       percentOrders: "4%",
       aovMean: 964,
@@ -25,7 +25,7 @@ export const merchantPersonaData = {
     },
     {
       id: 3,
-      category: "Merchant Tiers",
+      category: "Previous Order Information",
       personaCategory: "Bronze+",
       percentOrders: "5%",
       aovMean: 999,
@@ -33,7 +33,7 @@ export const merchantPersonaData = {
     },
     {
       id: 4,
-      category: "Merchant Tiers",
+      category: "Previous Order Information",
       personaCategory: "Silver",
       percentOrders: "9%",
       aovMean: 1119,
@@ -41,7 +41,7 @@ export const merchantPersonaData = {
     },
     {
       id: 5,
-      category: "Merchant Tiers",
+      category: "Previous Order Information",
       personaCategory: "Gold",
       percentOrders: "12%",
       aovMean: 1299,
@@ -49,7 +49,7 @@ export const merchantPersonaData = {
     },
     {
       id: 6,
-      category: "Merchant Tiers",
+      category: "Previous Order Information",
       personaCategory: "Diamond",
       percentOrders: "18%",
       aovMean: 1798,

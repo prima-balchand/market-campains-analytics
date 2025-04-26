@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/PersonaRankTables.css";
 import NetworkPersonaAnalysis from "../components/NetworkPersonaAnalysis";
-import CategoryAnalysis from "../components/CategoryAnalysis";
+import BusinessAnalysis from "../components/BusinessAnalysis";
 import { networkPersonaData } from "../data/networkPersonaData";
 import { businessPersonaData } from "../data/businessPersonaData";
 import { businessCategoryData } from "../data/businessCategoryData";
@@ -54,7 +54,7 @@ const PersonaRankPage = () => {
                 description={"This section shows persona analysis based on business data."}
               />
               <div style={{ marginTop: "40px", borderTop: "1px solid #ddd", paddingTop: "30px" }}>
-                <CategoryAnalysis
+                <BusinessAnalysis
                   data={businessCategoryData}
                   title={"Business Category Analysis"}
                   description={"This section shows persona analysis based on business categories."}
@@ -71,7 +71,7 @@ const PersonaRankPage = () => {
                 description={"This section shows persona analysis based on merchant data."}
               />
               <div style={{ marginTop: "40px", borderTop: "1px solid #ddd", paddingTop: "30px" }}>
-                <CategoryAnalysis
+                <BusinessAnalysis
                   data={merchantCategoryData}
                   title={"Merchant Category Analysis"}
                   description={"This section shows persona analysis based on merchant categories."}

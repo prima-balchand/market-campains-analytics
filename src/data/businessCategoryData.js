@@ -4,9 +4,9 @@ export const businessCategoryData = {
     Fashion: {
       headerData: [
         { id: "category", label: "" },
-        { id: "personaCategory", label: "Business Persona Bucket" },
-        { id: "percentOrders", label: "% Orders in Each Bucket" },
-        { id: "aovMean", label: "business_category_aov_mean" },
+        { id: "personaCategory", label: "Business Persona Category" },
+        { id: "percentOrders", label: "% Orders in Each Category" },
+        { id: "aovMean", label: "Business Category Life Time Value" },
       ],
       rowData: [
         {
@@ -19,7 +19,7 @@ export const businessCategoryData = {
         },
         {
           id: 2,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "2%",
           aovMean: 799.15,
@@ -28,7 +28,7 @@ export const businessCategoryData = {
         },
         {
           id: 3,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "5%",
           aovMean: 969,
@@ -36,7 +36,7 @@ export const businessCategoryData = {
         },
         {
           id: 4,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Silver",
           percentOrders: "10%",
           aovMean: 1174,
@@ -44,7 +44,7 @@ export const businessCategoryData = {
         },
         {
           id: 5,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Gold",
           percentOrders: "16%",
           aovMean: 1499,
@@ -52,7 +52,7 @@ export const businessCategoryData = {
         },
         {
           id: 6,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Diamond",
           percentOrders: "60%",
           aovMean: 1818,
@@ -63,9 +63,9 @@ export const businessCategoryData = {
     Cosmettics: {
       headerData: [
         { id: "category", label: "" },
-        { id: "personaCategory", label: "Business Persona Bucket" },
-        { id: "percentOrders", label: "% Orders in Each Bucket" },
-        { id: "aovMean", label: "business_category_aov_mean" },
+        { id: "personaCategory", label: "Business Persona Category" },
+        { id: "percentOrders", label: "% Orders in Each Category" },
+        { id: "aovMean", label: "Business Category Life Time Value" },
       ],
       rowData: [
         {
@@ -78,7 +78,7 @@ export const businessCategoryData = {
         },
         {
           id: 2,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "2%",
           aovMean: 559.55,
@@ -87,7 +87,7 @@ export const businessCategoryData = {
         },
         {
           id: 3,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "6%",
           aovMean: 594.5,
@@ -95,7 +95,7 @@ export const businessCategoryData = {
         },
         {
           id: 4,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Silver",
           percentOrders: "15%",
           aovMean: 874,
@@ -103,7 +103,7 @@ export const businessCategoryData = {
         },
         {
           id: 5,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Gold",
           percentOrders: "8%",
           aovMean: 999,
@@ -111,7 +111,7 @@ export const businessCategoryData = {
         },
         {
           id: 6,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Diamond",
           percentOrders: "22%",
           aovMean: 1108,

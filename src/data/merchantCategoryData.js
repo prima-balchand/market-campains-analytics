@@ -26,7 +26,7 @@ export const merchantCategoryData = {
         },
         {
           id: 2,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "5%",
           aovMean: 877,
@@ -35,7 +35,7 @@ export const merchantCategoryData = {
         },
         {
           id: 3,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "10%",
           aovMean: 959,
@@ -43,7 +43,7 @@ export const merchantCategoryData = {
         },
         {
           id: 4,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Silver",
           percentOrders: "17%",
           aovMean: 1099,
@@ -51,7 +51,7 @@ export const merchantCategoryData = {
         },
         {
           id: 5,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Gold",
           percentOrders: "20%",
           aovMean: 1269,
@@ -59,7 +59,7 @@ export const merchantCategoryData = {
         },
         {
           id: 6,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Diamond",
           percentOrders: "30%",
           aovMean: 1779,
@@ -85,7 +85,7 @@ export const merchantCategoryData = {
         },
         {
           id: 2,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "7%",
           aovMean: 1078,
@@ -94,7 +94,7 @@ export const merchantCategoryData = {
         },
         {
           id: 3,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "8%",
           aovMean: 1299,
@@ -102,7 +102,7 @@ export const merchantCategoryData = {
         },
         {
           id: 4,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Silver",
           percentOrders: "6%",
           aovMean: 1499,
@@ -110,7 +110,7 @@ export const merchantCategoryData = {
         },
         {
           id: 5,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Gold",
           percentOrders: "8%",
           aovMean: 1699,
@@ -118,7 +118,7 @@ export const merchantCategoryData = {
         },
         {
           id: 6,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Diamond",
           percentOrders: "10%",
           aovMean: 1899.05,
@@ -144,7 +144,7 @@ export const merchantCategoryData = {
         },
         {
           id: 2,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "7%",
           aovMean: 1049,
@@ -153,7 +153,7 @@ export const merchantCategoryData = {
         },
         {
           id: 3,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "5%",
           aovMean: 1349,
@@ -161,7 +161,7 @@ export const merchantCategoryData = {
         },
         {
           id: 4,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Silver",
           percentOrders: "6%",
           aovMean: 1152,
@@ -169,7 +169,7 @@ export const merchantCategoryData = {
         },
         {
           id: 5,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Gold",
           percentOrders: "15%",
           aovMean: 1398,
@@ -177,7 +177,7 @@ export const merchantCategoryData = {
         },
         {
           id: 6,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Diamond",
           percentOrders: "24%",
           aovMean: 1849,
@@ -203,7 +203,7 @@ export const merchantCategoryData = {
         },
         {
           id: 2,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "2%",
           aovMean: 562,
@@ -212,7 +212,7 @@ export const merchantCategoryData = {
         },
         {
           id: 3,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "7%",
           aovMean: 594,
@@ -220,7 +220,7 @@ export const merchantCategoryData = {
         },
         {
           id: 4,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Silver",
           percentOrders: "19%",
           aovMean: 874,
@@ -228,7 +228,7 @@ export const merchantCategoryData = {
         },
         {
           id: 5,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Gold",
           percentOrders: "9%",
           aovMean: 999,
@@ -236,7 +236,7 @@ export const merchantCategoryData = {
         },
         {
           id: 6,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Diamond",
           percentOrders: "22%",
           aovMean: 1139.05,
@@ -262,7 +262,7 @@ export const merchantCategoryData = {
         },
         {
           id: 2,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "9%",
           aovMean: 964,
@@ -271,7 +271,7 @@ export const merchantCategoryData = {
         },
         {
           id: 3,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "9%",
           aovMean: 999,
@@ -279,7 +279,7 @@ export const merchantCategoryData = {
         },
         {
           id: 4,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Silver",
           percentOrders: "16%",
           aovMean: 1119,
@@ -287,7 +287,7 @@ export const merchantCategoryData = {
         },
         {
           id: 5,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Gold",
           percentOrders: "13%",
           aovMean: 1299,
@@ -295,7 +295,7 @@ export const merchantCategoryData = {
         },
         {
           id: 6,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Diamond",
           percentOrders: "21%",
           aovMean: 1798,
@@ -321,7 +321,7 @@ export const merchantCategoryData = {
         },
         {
           id: 2,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze",
           percentOrders: "5%",
           aovMean: 1799,
@@ -330,7 +330,7 @@ export const merchantCategoryData = {
         },
         {
           id: 3,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Bronze+",
           percentOrders: "15%",
           aovMean: 2062,
@@ -338,7 +338,7 @@ export const merchantCategoryData = {
         },
         {
           id: 4,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Silver",
           percentOrders: "5%",
           aovMean: 2099,
@@ -346,7 +346,7 @@ export const merchantCategoryData = {
         },
         {
           id: 5,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Gold",
           percentOrders: "6%",
           aovMean: 2999,
@@ -354,7 +354,7 @@ export const merchantCategoryData = {
         },
         {
           id: 6,
-          category: "Business Tiers",
+          category: "Previous Order Information",
           personaCategory: "Diamond",
           percentOrders: "18%",
           aovMean: 4145.75,
