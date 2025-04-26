@@ -1,0 +1,86 @@
+.main-navigation {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.nav-logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #3498db;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 30px;
+  position: relative;
+}
+
+.nav-links li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #3498db;
+}
+
+.nav-links li.active a {
+  color: #3498db;
+  font-weight: 600;
+}
+
+.nav-links li.active::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #3498db;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+  }
+
+  .nav-links li {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .nav-links li.active::after {
+    bottom: -5px;
+  }
+}

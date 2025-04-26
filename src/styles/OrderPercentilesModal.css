@@ -1,0 +1,183 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: slideUp 0.3s ease-out;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #3498db, #2980b9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #64748b;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close-button:hover {
+  color: #334155;
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+.modal-description {
+  color: #64748b;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.percentiles-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 30px;
+}
+
+.percentiles-table th,
+.percentiles-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.percentiles-table th {
+  background-color: #f1f5f9;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.percentiles-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.percentile-visualization {
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
+.percentile-bar-container {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.percentile-bar {
+  position: absolute;
+  height: 8px;
+  width: 100%;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.percentile-marker {
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.marker-line {
+  height: 16px;
+  width: 2px;
+  background-color: #64748b;
+  margin: 0 auto;
+}
+
+.marker-label {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-align: center;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.marker-value {
+  font-size: 0.85rem;
+  color: #3498db;
+  text-align: center;
+  margin-top: 2px;
+  font-weight: 700;
+}
+
+/* Use consistent colors for all percentile markers */
+.percentile-marker .marker-line,
+.percentile-marker .marker-label,
+.percentile-marker .marker-value {
+  color: #3498db;
+}
+
+.percentile-marker .marker-line {
+  background-color: #3498db;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .percentiles-table th,
+  .percentiles-table td {
+    padding: 12px 8px;
+    font-size: 0.9rem;
+  }
+
+  .modal-content {
+    width: 95%;
+  }
+}
